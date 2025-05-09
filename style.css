@@ -287,7 +287,10 @@ header {
       .call-button {
         background-color: #007BFF;
       }
-      
+
+      .tiktok-button{
+        background-color: black;
+      }
       .contact-buttons a:hover {
         opacity: 0.9;
       }
