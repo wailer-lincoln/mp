@@ -261,6 +261,7 @@ header {
       }
       .contact-buttons {
         display: flex;
+        flex-direction: column;
         gap: 40px;
         margin: 40px 0;
       }
