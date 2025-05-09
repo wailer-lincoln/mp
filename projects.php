@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="style.css?v=<?php echo filemtime('style.css'); ?>">
+</head>
+<body>
+
+    <header>
+        <div class="header-left">
+          <img src="https://cdn-icons-png.flaticon.com/512/845/845646.png" alt="Logo Icon">
+          <span>VOTE MP Thomson Momanyi</span>
+        </div>
+        <div class="menu-container">
+            <div class="menu-icon" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+            <div class="dropdown-menu" id="dropdownMenu">
+                <a href="home.php">Home</a>
+                <a href="about.php">About</a>
+                <a href="projects.php">Projects</a>
+            </div>
+        </div>
+    </header>
+
+
+
+        <section class="intro-sect">
+            <p>
+                I have developed many projects in our constituency and some are attached below;
+            </p>
+        </section>
+
+
+
+
+        <section class="completed">
+
+            <h4>Completed</h4>
+
+                <div class="video-scroll-container">
+                    <div class="video-card">
+                        <video src="media/1.mp4" controls preload="metadata"></video>
+                        <p class="vid-caption">River Construction</p>
+                    </div>
+                    <div class="video-card">
+                        <video src="media/2.mp4" controls preload="metadata"></video>
+                        <p class="vid-caption">River Construction</p>
+                    </div>
+                    <div class="video-card">
+                        <video src="media/cmplt-1.mp4" controls preload="metadata"></video>
+                        <p class="vid-caption">Road Construction</p>
+                    </div>
+                    <div class="video-card">
+                        <video src="media/3.mp4" controls preload="metadata"></video>
+                        <p class="vid-caption">River Construction</p>
+                    </div>
+                    <div class="video-card">
+                        <video src="media/4.mp4" controls preload="metadata"></video>
+                        <p class="vid-caption">River Construction</p>
+                    </div>
+                    <div class="video-card">
+                        <video src="media/5.mp4" controls preload="metadata"></video>
+                        <p class="vid-caption">Bridge Construction</p>
+                    </div>
+                </div>
+
+                <hr style="border: none; height: 1px; background-color: gray;">
+
+                <div class="vertical-grid">
+                    <div class="video-card">
+                        <video controls preload="metadata">
+                            <source src="media/cmplt-2.mp4" type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                        <p class="vid-caption">Culvert cleaning and repair</p>
+                    </div>
+                    <div class="video-card">
+                        <video controls preload="metadata">
+                            <source src="media/cmplt-3.mp4" type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                        <p class="vid-caption">Road Construction</p>
+                    </div>
+                    <div class="video-card">
+                        <video controls preload="metadata">
+                            <source src="media/cmplt-4.mp4" type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                        <p class="vid-caption">River Construction</p>
+                    </div>
+                    <div class="video-card">
+                        <video controls preload="metadata">
+                            <source src="media/cmplt-5.mp4" type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                        <p class="vid-caption">Bridge Construction</p>
+                    </div>
+
+                </div>
+    
+        </section>
+
+
+        <section class="scheduled">
+            <h4>Scheduled</h4>
+
+            <p>Scheduled projects are announced here before they are done, you can check out for more details</p>
+
+            <div class="vertical-grid">
+                    <div class="video-card">
+                        <video controls preload="metadata">
+                            <source src="media/scd-1.mp4" type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                        <p class="vid-caption">Youth Engagement</p>
+                    </div>
+
+                    <div class="video-card">
+                        <video controls preload="metadata">
+                            <source src="media/scd-1.mp4" type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                        <p class="vid-caption">Connecting with community</p>
+                    </div>
+
+                    <div class="video-card">
+                        <video controls preload="metadata">
+                            <source src="media/scd-1.mp4" type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                        <p class="vid-caption">Road construction project follow up</p>
+                    </div>
+
+            </div>
+
+
+        </section>
+        
+
+
+
+
+
+
+
+
+        <footer class="site-footer">
+            <p>© 2027 Thomson Momanyi for MP Kitutu Masaba Constituency</p>
+        </footer> 
+
+    <script src="script.js?v=<?php echo filemtime('script.js'); ?>"></script>
+
+</body>
+</html>

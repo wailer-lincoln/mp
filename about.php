@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="style.css?v=<?php echo filemtime('style.css'); ?>">
+</head>
+<body>
+    
+
+    <header>
+        <div class="header-left">
+          <img src="https://cdn-icons-png.flaticon.com/512/845/845646.png" alt="Logo Icon">
+          <span>VOTE MP Thomson Momanyi</span>
+        </div>
+        <div class="menu-container">
+            <div class="menu-icon" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+            <div class="dropdown-menu" id="dropdownMenu">
+                <a href="home.php">Home</a>
+                <a href="about.php">About</a>
+                <a href="projects.php">Projects</a>
+            </div>
+        </div>
+    </header>
+
+
+
+    <section class="me-sect">
+
+        <div class="about-div">
+
+            <div class="about-image">
+                <a href="mpimg3.jpeg"><img src="mpimg3.jpeg" alt="Profile Photo"></a>
+            </div>
+
+            <div class="about-text">
+                <h4>Hon Thomson Momanyi</h4>
+                <p class="p-class">Aspiring MP Kitutu Masaba Constituency</p>
+                <p><strong>Party:</strong> To be determined</p>
+                <p><strong>Home:</strong> Gusii</p>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <section class="vision">
+
+        <div class="vision">
+            <h4>Vision</h4>
+            <p>"To serve my community with integrity, accountability, and dedication — and ensure every voice is heard, every issue is addressed, and every opportunity is created for a better future."</p>
+        </div>
+
+    </section>
+
+
+
+    <section class="manifesto-sect">
+
+        <div class="manifesto">
+            <h4>Manifesto</h4>
+            <li>This is my manifesto 1</li>
+            <li>This is my manifesto 2</li>
+            <li>This is my manifesto 3</li>
+            <li>This is my manifesto 4</li>            
+        </div>
+
+    </section>
+
+
+    <section class="mis&val-sect">
+
+        <div class="missions">
+            <h4>Missions and Values</h4>
+            <li>Prioritizing youth opportunities in education, employment, and leadership.</li>
+            <li>Transparency and accountability through open decision-making and honest communication with the public and taking full responsibility for promises, actions, and public funds.</li>
+            <li>Developing local infrastructure, education, healthcare, and business support.</li>
+            <li>Promoting sustainability, clean energy, and protection of local natural resources in the constituency</li> 
+        </div>
+
+    </section>
+
+
+    <section class="community-sect">
+
+        <div class="community">
+            <h4>Connecting with the community</h4>
+            <div class="horizontal-scroll">
+                <a href="media/commun-1.jpeg"><img src="media/commun-1.jpeg" alt="Image 1"></a>
+                <a href="media/commun-2.jpeg"><img src="media/commun-2.jpeg" alt="Image 2"></a>
+                <a href="media/commun-3.jpeg"><img src="media/commun-3.jpeg" alt="Image 3"></a>
+                <a href="media/commun-4.jpeg"><img src="media/commun-4.jpeg" alt="Image 4"></a>
+                <a href="media/commun-5.jpeg"><img src="media/commun-5.jpeg" alt="Image 4"></a>
+                <a href="media/commun-6.jpeg"><img src="media/commun-6.jpeg" alt="Image 4"></a>
+                <a href="media/commun-7.jpeg"><img src="media/commun-7.jpeg" alt="Image 4"></a>
+                <a href="media/commun-8.jpeg"><img src="media/commun-8.jpeg" alt="Image 4"></a>
+                <a href="media/commun-9.jpeg"><img src="media/commun-9.jpeg" alt="Image 4"></a>
+                <a href="media/commun-10.jpeg"><img src="media/commun-10.jpeg" alt="Image 4"></a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="supporters-sect">
+
+        <div class="supporters">
+            <h4>Suppoters and Testimonials</h4>
+            <div class="vertical-grid">
+                <div class="video-card">
+                    <a href="media/supt-4.mp4"><video controls preload="metadata">
+                        <source src="media/supt-4.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video></a>
+                    <span>Chiduvet Project</span>
+                </div>
+
+                <div class="video-card">
+                    <a href="media/supt-2.mp4"><video controls preload="metadata">
+                        <source src="media/supt-2.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video></a>
+                    <span>Rivers Construction Project</span>
+                </div>
+
+                <div class="video-card">
+                    <a href="media/supt-3.mp4"><video controls preload="metadata">
+                        <source src="media/supt-3.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video></a>
+                    <span>Road Construction Project</span>
+                </div>
+
+                <div class="video-card">
+                    <a href="media/supt-1.mp4"><video controls preload="metadata">
+                        <source src="media/supt-1.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video></a>
+                    <span>Rivers Construction Project</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer class="site-footer">
+            <p>© 2027 Thomson Momanyi for MP Kitutu Masaba Constituency</p>
+        </footer> 
+
+    <script src="script.js?v=<?php echo filemtime('script.js'); ?>"></script>
+
+</body>
+</html>

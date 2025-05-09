@@ -35,19 +35,46 @@ header {
     }
 
     .menu-icon {
-    width: 24px;
-    height: 18px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    cursor: pointer;
+      width: 24px;
+      height: 19px;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
     }
-
+    
     .menu-icon div {
-    height: 3px;
-    background: #fff;
-    border-radius: 2px;
+      height: 3px;
+      background-color: #fff;
+      border-radius: 2px;
     }
+    
+    .dropdown-menu {
+      display: none;
+      flex-direction: column;
+      background-color: #f0f0f0;
+      position: absolute;
+      top: 46px;
+      right: 6px;
+      padding: 10px;
+      min-width: 120px;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    
+    .dropdown-menu a {
+      text-decoration: none;
+      color: black;
+      margin: 5px 0;
+      margin-left: 5px;
+      font-size: 15px;
+      font-family: "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    }
+    
+    .dropdown-menu.show {
+      display: flex;
+    }
+    
     * {
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -224,6 +251,7 @@ header {
         font-weight: 100;
         font-style: italic;
         font-size: 13px;
+        color: #252323;
       }
       .vertical-grid a{
         font-size: 13px;
@@ -264,6 +292,7 @@ header {
       }
 
       .site-footer {
+        margin-top: 18px;
         color: #333;
         text-align: center;
         font-size: 14px;
@@ -271,5 +300,154 @@ header {
         border-top: 1px solid #2735f5;
       }
       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       
+      /* PROJECTS */
+
+      .intro-sect{
+        padding-top: 45px;
+      }
+      .intro-sect p {
+        font-size: 15px;
+        margin: auto;
+        text-align: center;
+      }
+
+      .video-scroll-container {
+        display: flex;
+        overflow-x: auto;
+        gap: 11px;
+        padding: 6px;
+        scroll-snap-type: x mandatory;
+      }
+      
+      .video-card {
+        flex: 0 0 auto;
+        width: 150px;
+        scroll-snap-align: start;
+      }
+      
+      video {
+        width: 150px;
+        max-height: 200px;
+        border-radius: 8px;
+      }
+      
+      .vid-caption {
+        text-align: center;
+        margin-top: 8px;
+        font-size: 14px;
+      }
+      .scheduled p{
+        font-family: "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+        font-size: 15px;
+      }
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+      /* ABOUT */
+   
+      .about-div {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding-top: 15px;
+        max-width: 900px;
+        margin: auto;
+      }
+      
+      .about-image img {
+        width: 150px;
+        height: 250px;
+        border-radius: 10px;
+        object-fit: cover;
+      }
+      
+      .about-text {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        flex: 1;
+        height: 240px;
+      }
+      .about-text p {
+        margin: 0%;
+      }
+      .about-text h4{
+        margin: 0%;
+        padding-top:10px;
+      }
+      .p-class{
+        font-style: italic;
+        font-weight: 600;
+        color: #414447;
+        font-size: 15px;
+      }
+      .me-sect{
+        padding-top: 30px;
+      }
+      .horizontal-scroll {
+        display: flex;
+        overflow-x: auto;
+        gap: 10px;
+        padding: 10px;
+        scroll-behavior: smooth;
+      }
+      
+      .horizontal-scroll img {
+        flex: 0 0 auto;
+        width: 150px;
+        height: 150px;
+        border-radius: 8px;
+        object-fit: cover;
+      }
+      
+      .horizontal-scroll::-webkit-scrollbar {
+        display: none;
+      }
+      
+      .vision p{
+        font-family: 'Inter', sans-serif;
+        font-size: 15px;
+      }
+      .manifesto li{
+        font-family: 'Inter', sans-serif;
+        font-size: 15px;
+        text-align: left;
+        padding-bottom: 8px;
+        line-height: 20px; 
+      }
+      .missions li{
+        font-family: 'Inter', sans-serif;
+        font-size: 15px;
+        text-align: left;
+        padding-bottom: 8px;
+        line-height: 20px;
+      }
+
       

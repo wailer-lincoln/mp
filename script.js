@@ -1,8 +1,8 @@
 const videoData = [
-    { src: "video1.mp4", caption: "Establishing training hubs to equip youth with practical job-ready skills in Kemera." },
-    { src: "video2.mp4", caption: "Launching mobile clinics and awareness campaigns for rural health services access in Tombe." },
-    { src: "video3.mp4", caption: "Installing boreholes, tanks, and toilets to ensure safe water and hygiene in Manga." },
-    { src: "video4.mp4", caption: "Building classrooms, libraries, and labs to improve learning environments across Kegati." }
+    { src: "media/cmplt-2.mp4", caption: "Establishing a culvert to improve water drainage along the roads." },
+    { src: "media/cmplt-3.mp4", caption: "Building a road for ease movement of people and goods." },
+    { src: "media/cmplt-4.mp4", caption: "Building a river to supply clean water to the neighbouring community." },
+    { src: "media/cmplt-5.mp4", caption: "Establishing a bridge to enable safe crossing of a flooded river." }
     ];
 
     const container = document.getElementById('newsContainer');
@@ -14,7 +14,7 @@ const videoData = [
     newsDiv.classList.add('news-item');
 
     newsDiv.innerHTML = `
-    <video controls>
+    <video controls preload="metadata">
         <source src="${item.src}" type="video/mp4" />
         Your browser does not support the video tag.
     </video>
@@ -27,10 +27,10 @@ const videoData = [
 
     videoData.forEach((item) => {
     const newsDiv = document.createElement('div');
-    newsDiv.classList.add('news-item');
+    newsDiv.classList.add('new-item');
 
     newsDiv.innerHTML = `
-    <video controls>
+    <video controls preload="metadata">
         <source src="${item.src}" type="video/mp4" />
         Your browser does not support the video tag.
     </video>
@@ -56,3 +56,11 @@ const videoData = [
 
     document.querySelector('.scroll-wrapper').addEventListener('scroll', revealOnScroll);
     window.addEventListener('load', revealOnScroll);
+
+
+
+
+  function toggleMenu() {
+    const menu = document.getElementById('dropdownMenu');
+    menu.classList.toggle('show');
+  }
