@@ -1,6 +1,6 @@
 const videoData = [
     { src: "media/cmplt-2.mp4", caption: "Establishing a culvert to improve water drainage along the roads." },
-    { src: "media/cmplt-3.mp4", caption: "Constructing roads for easen movement of people and goods." },
+    { src: "media/cmplt-3.mp4", caption: "Constructing roads to easen movement of people and goods." },
     { src: "media/cmplt-4.mp4", caption: "Constructing a river to supply clean water to the neighbouring community." },
     { src: "media/cmplt-5.mp4", caption: "Establishing a bridge to enable safe crossing of a flooded river." }
     ];
