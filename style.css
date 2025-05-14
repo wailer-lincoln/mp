@@ -35,8 +35,8 @@ header {
     }
 
     .menu-icon {
-      width: 24px;
-      height: 19px;
+      width: 22px;
+      height: 17px;
       cursor: pointer;
       display: flex;
       flex-direction: column;
@@ -44,9 +44,9 @@ header {
     }
     
     .menu-icon div {
-      height: 3px;
+      height: 2px;
       background-color: #fff;
-      border-radius: 2px;
+      border-radius: 3px;
     }
     
     .dropdown-menu {
@@ -64,11 +64,11 @@ header {
     
     .dropdown-menu a {
       text-decoration: none;
-      color: black;
       margin: 5px 0;
       margin-left: 5px;
       font-size: 15px;
       font-family: "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+      color: #0056b3;
     }
     
     .dropdown-menu.show {
@@ -261,17 +261,18 @@ header {
       }
       .contact-buttons {
         display: flex;
-        flex-direction: column;
-        gap: 40px;
-        margin: 40px 0;
+        align-items: center;
+        justify-content: baseline;
+        margin-top: 15px;
       }
       
       .contact-buttons a {
         margin: auto;
         display: flex;
         align-items: center;
-        gap: 12px;
-        padding: 5px 10px;
+        font-size: 14px;
+        gap: 4px;
+        padding: 3px 4px;
         border-radius: 8px;
         text-decoration: none;
         color: white;
@@ -284,10 +285,11 @@ header {
         background-color: #25D366;
       }
       
-      .call-button {
-        background-color: #007BFF;
+      .email-button {
+        background-color: #0066cc; /* Blue */
+        color: #ffffff;
       }
-
+      
       .tiktok-button{
         background-color: black;
       }
@@ -302,6 +304,17 @@ header {
         font-size: 14px;
         font-family: 'Open Sans', sans-serif;
         border-top: 1px solid #2735f5;
+      }
+
+      .js-href{
+        text-decoration: none;
+        background-color: #555;
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+        margin: auto;
+        padding: 3px;
+        border-radius: 4px;
       }
       
 
@@ -435,7 +448,7 @@ header {
         display: none;
       }
       
-      .vision p{
+      .vision p li{
         font-family: 'Inter', sans-serif;
         font-size: 15px;
       }
@@ -455,3 +468,21 @@ header {
       }
 
       
+
+
+
+
+
+
+
+
+
+
+
+
+
+      /* DASHBOARD */
+
+      .input-sect{
+        padding-top: 45px;
+      }
