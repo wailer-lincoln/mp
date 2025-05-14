@@ -42,20 +42,37 @@ const videoData = [
 
     // Reveal animation when in view (horizontal)
     const revealOnScroll = () => {
-    const items = document.querySelectorAll('.news-item');
-    const windowLeft = 0;
-    const windowRight = window.innerWidth;
+        const items = document.querySelectorAll('.news-item');
+        const windowLeft = 0;
+        const windowRight = window.innerWidth;
 
-    items.forEach((item) => {
-    const rect = item.getBoundingClientRect();
-    if (rect.left < windowRight - 50 && rect.right > windowLeft + 50) {
-        item.classList.add('visible');
-    }
-    });
+        items.forEach((item) => {
+            const rect = item.getBoundingClientRect();
+            if (rect.left < windowRight - 50 && rect.right > windowLeft + 50) {
+                item.classList.add('visible');
+            }
+        });
     };
+
+
+    function addButton(){
+        const myDiv = document.getElementById("newsContainer");
+        const items = container.querySelectorAll('.news-item');
+        if (items.length === 4) {
+            const anchor = document.createElement("a");
+            anchor.href = "projects.php";
+            anchor.textContent = "More >";
+            anchor.className = "js-href"; 
+    
+            myDiv.appendChild(anchor);
+        }
+    }
+
+
 
     document.querySelector('.scroll-wrapper').addEventListener('scroll', revealOnScroll);
     window.addEventListener('load', revealOnScroll);
+    addButton();
 
 
 
